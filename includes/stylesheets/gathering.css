@@ -1,0 +1,13 @@
+/* -------------------------------
+ *	Homepage Styling
+ * ------------------------------- */
+#body {
+	margin-top: 100px;
+}
+
+/* -------------------------------
+ *	Form Elements
+ * ------------------------------- */
+.form-horizontal .control-label {
+	text-align: left;
+}
