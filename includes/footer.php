@@ -13,6 +13,7 @@
 							<li><a href="#"<?php if ($Page == "Home") { ?> class="text-white"<?php } ?>><i class="fa fa-facebook"></i></a></li>
 							<li><a href="#"<?php if ($Page == "Home") { ?> class="text-white"<?php } ?>><i class="fa fa-instagram"></i></a></li>
 							<li><a href="#"<?php if ($Page == "Home") { ?> class="text-white"<?php } ?>><i class="fa fa-pinterest"></i></a></li>
+							<li><a href="#"<?php if ($Page == "Home") { ?> class="text-white"<?php } ?>><i class="fa fa-twitter"></i></a></li>
 						</ul>
 					</div>
 				</div>

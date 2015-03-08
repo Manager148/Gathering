@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1" />
 		<meta name="description" content="<?php echo $MetaDescription ?>" />
 		<meta name="author" content="Gathering, LLC" />
-		<meta name='robots' content='index, follow, noodp' />
+		<meta name='robots' content='noindex, nofollow, noodp' />
 		
 		<link rel="canonical" href="http://www.wegather.co/" />
 		<link rel="author" href="https://plus.google.com/112306847652361077748" />

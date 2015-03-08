@@ -11,7 +11,7 @@
 
 <!-- BODY -->
 <div id="<?php echo $id ?>" class="container">
-	
+
 	<div class="row">
 		<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-2">
 			<div class="page-header">
@@ -19,6 +19,7 @@
 			</div>
 			
 			<form id="sign-in-form" class="form-horizontal" action="actions/sign-in-action.php" onsubmit="validateSignin();" autocomplete="off" method="post" novalidate>
+			
 				<div class="form-group">
 					<label for="email" class="col-lg-4 col-md-4 col-sm-12 col-xs-12 control-label">Email</label>
 					<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
@@ -38,6 +39,7 @@
 						<button type="submit" class="btn btn-info" tabindex="3">Sign In</button>
 					</div>
 				</div>
+				
 			</form>
 		</div>
 	</div>
