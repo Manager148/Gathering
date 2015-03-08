@@ -9,7 +9,8 @@
 	right: 0;
 	width: 40px;
 }
-.carousel-indicators li {
+.carousel-indicators li,
+.carousel-indicators li.active {
 	display: block;
 	margin-top: 10px;
 }

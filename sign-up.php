@@ -19,6 +19,7 @@
 			</div>
 			
 			<form id="sign-in-form" class="form-horizontal" action="actions/sign-in-action.php" onsubmit="validateSignin();" autocomplete="off" method="post" novalidate>
+				
 				<div class="form-group">
 					<label for="email" class="col-lg-4 col-md-4 col-sm-12 col-xs-12 control-label">Email</label>
 					<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
@@ -30,13 +31,6 @@
 					<label for="password" class="col-lg-4 col-md-4 col-sm-12 col-xs-12 control-label">Password</label>
 					<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
 						<input type="password" class="form-control" id="password" name="password" tabindex="2">
-					</div>
-				</div>
-				
-				<div class="form-group">
-					<label for="confirm_password" class="col-lg-4 col-md-4 col-sm-12 col-xs-12 control-label">Confirm Password</label>
-					<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-						<input type="password" class="form-control" id="confirm_password" name="confirm_password" tabindex="2">
 					</div>
 				</div>
 				
