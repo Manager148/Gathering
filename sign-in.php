@@ -1,7 +1,7 @@
 <?php
-	$Validation			= true;						// includes the validation script
-	$Page				= "Sign In"; 				// tells us the name of the page
-	$PageTitle			= $Page . " - Gathering"; 	// sets the page title
+	$Validation			= true;							// includes the validation script
+	$Page				= "Sign In"; 					// tells us the name of the page
+	$PageTitle			= $Page . " - Gathering"; 		// sets the page title
 	$MetaDescription	= "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
 ?>
 
@@ -10,7 +10,7 @@
 <?php include("includes/header.php") ?>
 
 <!-- BODY -->
-<div id="body" class="container">
+<div id="<?php echo $id ?>" class="container">
 	
 	<div class="row">
 		<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-2">
@@ -35,7 +35,7 @@
 				
 				<div class="form-group">
 					<div class="col-lg-offset-4 col-md-offset-4 col-lg-8 col-md-8 col-sm-12 col-xs-12">
-						<button type="submit" class="btn btn-default" tabindex="3">Sign In</button>
+						<button type="submit" class="btn btn-info" tabindex="3">Sign In</button>
 					</div>
 				</div>
 			</form>

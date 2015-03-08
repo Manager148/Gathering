@@ -9,15 +9,39 @@
 <?php include("includes/header.php") ?>
 
 <!-- BODY -->
-<div id="body" class="container">
+<div id="<?php echo $id ?>" class="container">
 
 	<div class="row">
-		<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-2">
-			<div class="page-header">
-				<h1>Welcome!</h1>
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		
+			<div id="gathering-carousel" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#gathering-carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#gathering-carousel" data-slide-to="1"></li>
+				</ol>
+				
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<div class="page-header">
+							<h1 class="text-white">Plan and organize your gathering together.</h1>
+						</div>
+						
+						<p class="lead text-white">Host a gathering, invite guests, assign items, initiate votes making your planning easier.</p>
+					</div>
+					<div class="item">
+						<div class="page-header">
+							<h1 class="text-white">Stay close before and after your gathering.</h1>
+						</div>
+						
+						<p class="lead text-white">Capture and share moments beyond your gathering anytime, anywhere.</p>
+					</div>
+				</div>
 			</div>
 			
-			<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<a href="sign-up.php" class="btn btn-lg btn-info">Sign Up</a>
+		
 		</div>
 	</div>
 </div>

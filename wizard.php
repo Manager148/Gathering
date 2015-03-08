@@ -9,7 +9,7 @@
 <?php include("includes/header.php") ?>
 
 <!-- BODY -->
-<div id="body" class="container">
+<div id="<?php echo $id ?>" class="container">
 
 	<div class="row">
 		<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-2">

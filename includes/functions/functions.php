@@ -2,10 +2,12 @@
 
 	// CONSTANTS
 	
-	$baseDir	= "http://localhost/gathering/";
-	$styleDir	= "http://localhost/gathering/includes/stylesheets/";
-	$imageDir	= "http://localhost/gathering/includes/images/";
-	$scriptDir	= "http://localhost/gathering/includes/scripts/";
+	$baseDir	= "http://localhost/";
+	$styleDir	= $baseDir . "includes/stylesheets/";
+	$imageDir	= $baseDir . "includes/images/";
+	$scriptDir	= $baseDir . "includes/scripts/";
+	$fontDir	= $baseDir . "includes/fonts/";
+	$id			= str_replace(" ","", $Page);;	// trims white space so we can use the page name as the id of the containing div
 	
 	// COMMON FUNCTIONS
 	

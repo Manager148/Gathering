@@ -1,8 +1,17 @@
 /* -------------------------------
  *	Homepage Styling
  * ------------------------------- */
-#body {
+#Home {
 	margin-top: 100px;
+}
+.carousel-indicators {
+	left: inherit;
+	right: 0;
+	width: 40px;
+}
+.carousel-indicators li {
+	display: block;
+	margin-top: 10px;
 }
 
 /* -------------------------------
@@ -10,4 +19,35 @@
  * ------------------------------- */
 .form-horizontal .control-label {
 	text-align: left;
+}
+
+/* -------------------------------
+ *	Typography
+ * ------------------------------- */
+.text-white,
+.navbar-default .navbar-nav a.text-white,
+.navbar-default .navbar-header a.text-white {
+	color: #fff;
+}
+
+/* -------------------------------
+ *	General
+ * ------------------------------- */
+.page-header {
+	border-bottom: none;
+}
+
+/* -------------------------------
+ *	Navbar
+ * ------------------------------- */
+.navbar-default {
+	background-color: transparent;
+	border: none;
+}
+.navbar-brand > img {
+	width: 140px;
+}
+
+footer .navbar-brand {
+	font-size: 16px;
 }

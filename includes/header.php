@@ -7,16 +7,20 @@
 		<meta name="description" content="<?php echo $MetaDescription ?>" />
 		<meta name="author" content="Gathering, LLC" />
 		<meta name='robots' content='index, follow, noodp' />
-		<link rel="canonical" href="http://www.spencerbieri.com/" />
+		
+		<link rel="canonical" href="http://www.wegather.co/" />
 		<link rel="author" href="https://plus.google.com/112306847652361077748" />
+		
 		<title><?php echo $PageTitle ?></title>
+		
 		<!-- FAVICON -->
-		<link rel="icon" href="favicon.ico" type="image/ico" />	
+		<link rel="icon" type="image/ico" href="<?php echo $imageDir ?>favicon.ico" />	
 		<!-- STYLESHEETS -->
-		<link rel="stylesheet" href="<?php echo $styleDir ?>bootstrap.css?ver=1.0" type="text/css" />
-		<link rel="stylesheet" href="<?php echo $styleDir ?>gathering.css?ver=1.0" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo $styleDir ?>bootstrap.min.css?ver=1.0" />
+		<link rel="stylesheet" type="text/css" href="<?php echo $styleDir ?>gathering.css?ver=1.0" />
 		<!-- FONTS -->
-		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Josefin+Slab:300|Open+Sans:300,600" type="text/css">
+		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,300,400,600|Dancing+Script" />
+		<link rel="stylesheet" type="text/css" href="<?php echo $styleDir ?>font-awesome.min.css" />
 	</head>
 	
 	<body>
@@ -31,14 +35,13 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="/gathering"><!--<img src="<?php echo $imageDir ?>gathering-logo.png" alt="Gathering Logo" />-->Gathering</a>
+						<a class="navbar-brand" href="/"><img src="<?php echo $imageDir ?>gathering-<?php if ($Page == "Home") { ?>white<?php } else { ?>blue<?php } ?>.png" alt="Gathering" /></a>
 					</div>
 <?php if ($signIn != true) { ?>
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="sign-in.php">Sign In</a></li>
-							<li><a href="sign-up.php">Sign Up</a></li>
+							<li><a href="sign-in.php"<?php if ($Page == "Home") { ?> class="text-white"<?php } ?>>Log In</a></li>
 						</ul>
 					</div>
 <?php } ?>
